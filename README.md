@@ -1,16 +1,51 @@
-# hacker_news_reader
+# Hacker News Reader App
 
-A new Flutter project.
+A Flutter application that displays top stories from Hacker News using the official Hacker News API.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Fetch top Hacker News stories
+- View story details
+- View comments
+- Pull to refresh
+- Clean UI
+- API integration using HTTP package
 
-A few resources to get you started if this is your first Flutter project:
+## Technologies Used
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Flutter
+- Dart
+- Hacker News API
+- HTTP package
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## API Endpoints
+
+### Top Stories
+https://hacker-news.firebaseio.com/v0/topstories.json
+
+### Story Details
+https://hacker-news.firebaseio.com/v0/item/<id>.json
+
+## Project Structure
+
+lib/
+├── models/
+├── services/
+├── screens/
+├── widgets/
+└── main.dart
+
+## Screens
+
+### Home Screen
+Displays top Hacker News stories.
+
+### Detail Screen
+Displays story details and comments.
+
+## How to Run
+
+1. Clone the repository
+
+```bash
+git clone (https://github.com/Kanak-goyal0107/hackerNewsReader)
